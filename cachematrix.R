@@ -1,7 +1,13 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
+## first one for calculating the inverse and caching the result
+## second one checks whether the inverse should be calculated or 
+## it must be taken from the cache matrix with a if statement
+
 ## Write a short comment describing this function
+## makeCacheMatri function cache the inverse of a given matrix.
+
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
